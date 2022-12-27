@@ -17,6 +17,8 @@ function updateCounter() {
 }
 updateCounter();
 
+
+// for location element
 function updateLocation(){
     const locti = document.getElementById('locti');
     let location = localStorage.getItem('visiterLocation');
